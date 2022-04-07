@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: static-deployment
-  namespace: royal
+  namespace: upright
 spec:
   selector:
     matchLabels:
@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: static
-        image: 151439720941.dkr.ecr.ap-northeast-1.amazonaws.com/k8s:11
+        image: 151439720941.dkr.ecr.ap-northeast-1.amazonaws.com/k82:5
         ports:
         - containerPort: 80
