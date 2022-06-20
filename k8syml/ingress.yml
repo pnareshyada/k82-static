@@ -2,10 +2,10 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
  name: static-ingress
- namespace: upright
+ namespace: application
 spec:
  rules:
- - host: upright.lekkalahyma.xyz
+ - host: application1.ajendra.xyz
    http:
      paths:
      - path:
