@@ -4,7 +4,7 @@ metadata:
   name: static-deployment
   namespace: application
 spec:
-  selecto=r:
+  selector:
     matchLabels:
       app: static-dept
   replicas: 5 
